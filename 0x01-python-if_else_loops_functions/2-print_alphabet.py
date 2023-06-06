@@ -1,6 +1,4 @@
-import sys
-
 for i in range(ord('a'), ord('z') + 1):
-    sys.stdout.write(chr(i))
-
+    if chr(i) != 'q' and chr(i) != 'e':
+        print(chr(i), end='')
 
