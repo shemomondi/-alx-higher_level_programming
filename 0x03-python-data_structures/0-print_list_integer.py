@@ -3,6 +3,7 @@
 
 
 def print_list_integer(my_list=[]):
-    for num in my_list:
-        print("{0}".format(num))
+    """Should Print all intergers of a list."""
+    for num in(len( my_list)):
+        print("{0}".format(my_list[num]))
 
