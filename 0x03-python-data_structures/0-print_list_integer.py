@@ -5,5 +5,5 @@
 def print_list_integer(my_list=[]):
     """Should Print all intergers of a list."""
     for num in range(len( my_list)):
-        print("{:0}".format(my_list[num]))
+        print("{:o}".format(my_list[num]))
 
